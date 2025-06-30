@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Custom toast styling */
+.Toastify__toast {
+  font-family: 'Inter', sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  font-size: 14px;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #4ECDC4, #44A08D);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #FF6B6B, #EE5A52);
+  color: white;
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #4A90E2, #357ABD);
+  color: white;
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #FFD93D, #FAD5A5);
+  color: #8B4513;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.Toastify__close-button {
+  color: currentColor;
+  opacity: 0.7;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Animation utilities */
+@keyframes shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.shimmer {
+  animation: shimmer 1.5s infinite linear;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 400% 100%;
+}
+
+/* Focus styles */
+*:focus {
+  outline: none;
+}
+
+.focus-ring:focus {
+  box-shadow: 0 0 0 3px rgba(91, 71, 224, 0.3);
+}
+
+/* Checkbox animations */
+.checkbox-bounce {
+  animation: bounce-subtle 0.5s ease-out;
+}
+
+/* Priority border indicators */
+.priority-low {
+  border-left: 1px solid #4ECDC4;
+}
+
+.priority-medium {
+  border-left: 2px solid #FFD93D;
+}
+
+.priority-high {
+  border-left: 3px solid #FF6B6B;
+}
+
+.priority-urgent {
+  border-left: 4px solid #FF6B6B;
+  box-shadow: 0 0 0 1px rgba(255, 107, 107, 0.2);
+}
+
+/* Confetti animation */
+.confetti-particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #4ECDC4;
+  animation: confetti 1s ease-out forwards;
+  pointer-events: none;
+}
+
+.confetti-particle:nth-child(2) {
+  background: #FFD93D;
+  animation-delay: 0.1s;
+  transform: rotate(45deg);
+}
+
+.confetti-particle:nth-child(3) {
+  background: #FF6B6B;
+  animation-delay: 0.2s;
+  transform: rotate(90deg);
+}
+
+.confetti-particle:nth-child(4) {
+  background: #5B47E0;
+  animation-delay: 0.3s;
+  transform: rotate(135deg);
+}

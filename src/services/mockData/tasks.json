@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "title": "Review project proposal",
+    "description": "Go through the new project proposal and provide feedback on the technical requirements and timeline",
+    "categoryId": "1",
+    "priority": "high",
+    "dueDate": "2024-01-15T10:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-10T09:00:00.000Z",
+    "completedAt": null
+  },
+  {
+    "Id": 2,
+    "title": "Update team documentation",
+    "description": "Update the team wiki with the latest API changes and best practices",
+    "categoryId": "1",
+    "priority": "medium",
+    "dueDate": "2024-01-16T15:00:00.000Z",
+    "completed": true,
+    "createdAt": "2024-01-08T14:30:00.000Z",
+    "completedAt": "2024-01-12T16:45:00.000Z"
+  },
+  {
+    "Id": 3,
+    "title": "Grocery shopping",
+    "description": "Buy ingredients for meal prep this week: chicken, vegetables, rice, and snacks",
+    "categoryId": "2",
+    "priority": "medium",
+    "dueDate": "2024-01-14T12:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-11T08:15:00.000Z",
+    "completedAt": null
+  },
+  {
+    "Id": 4,
+    "title": "Call insurance company",
+    "description": "Follow up on the claim status and get clarification on coverage details",
+    "categoryId": "2",
+    "priority": "urgent",
+    "dueDate": "2024-01-13T09:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-10T11:20:00.000Z",
+    "completedAt": null
+  },
+  {
+    "Id": 5,
+    "title": "Read chapter 5 of React book",
+    "description": "Continue learning about advanced React patterns and state management",
+    "categoryId": "3",
+    "priority": "low",
+    "dueDate": null,
+    "completed": true,
+    "createdAt": "2024-01-09T19:00:00.000Z",
+    "completedAt": "2024-01-11T20:30:00.000Z"
+  },
+  {
+    "Id": 6,
+    "title": "Complete online course assignment",
+    "description": "Finish the JavaScript fundamentals assignment and submit before deadline",
+    "categoryId": "3",
+    "priority": "high",
+    "dueDate": "2024-01-17T23:59:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-12T10:00:00.000Z",
+    "completedAt": null
+  },
+  {
+    "Id": 7,
+    "title": "Morning workout routine",
+    "description": "30-minute cardio session followed by strength training focus on upper body",
+    "categoryId": "4",
+    "priority": "medium",
+    "dueDate": "2024-01-13T07:00:00.000Z",
+    "completed": true,
+    "createdAt": "2024-01-12T06:30:00.000Z",
+    "completedAt": "2024-01-13T07:45:00.000Z"
+  },
+  {
+    "Id": 8,
+    "title": "Schedule dentist appointment",
+    "description": "Book routine cleaning and checkup for next month",
+    "categoryId": "4",
+    "priority": "low",
+    "dueDate": "2024-01-20T10:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-11T13:15:00.000Z",
+    "completedAt": null
+  }
+]
