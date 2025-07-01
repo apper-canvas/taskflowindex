@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion'
 import ApperIcon from '@/components/ApperIcon'
-import { getTimeBasedGreeting } from '@/utils/dateUtils'
 
-const ProgressHeader = ({
+const ProgressHeader = ({ 
   totalTasks = 0, 
   completedTasks = 0, 
   todayTasks = 0, 
@@ -50,9 +49,9 @@ const ProgressHeader = ({
             </div>
           </div>
           
-<div>
+          <div>
             <h1 className="text-2xl font-bold font-display mb-2">
-              {getTimeBasedGreeting()}
+              Good morning! 👋
             </h1>
             <p className="text-white/80 font-body">
               {completedTasks} of {totalTasks} tasks completed
