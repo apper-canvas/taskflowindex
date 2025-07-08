@@ -142,8 +142,8 @@ const TaskPage = () => {
         >
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-xl font-semibold text-gray-900 font-display">
-                {currentCategory ? currentCategory.name : 'All Tasks'}
+<h2 className="text-xl font-semibold text-gray-900 font-display">
+                {currentCategory ? currentCategory.Name : 'All Tasks'}
               </h2>
               <div className="text-sm text-gray-500 font-body">
                 {totalTasks} tasks
